@@ -1,0 +1,12 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  --include "F:/Vivado/Vivado/2017.4/data/xilinx_vip/include" \
+"../../../../Easy_-_Parameterized Priority Encoder Decoder.srcs/sources_1/new/codec_pkg.sv" \
+"../../../../Easy_-_Parameterized Priority Encoder Decoder.srcs/sources_1/new/priority_decoder.sv" \
+"../../../../Easy_-_Parameterized Priority Encoder Decoder.srcs/sources_1/new/priority_encoder.sv" \
+"../../../../Easy_-_Parameterized Priority Encoder Decoder.srcs/sim_1/new/tb_priority_codec.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
