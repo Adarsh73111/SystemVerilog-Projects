@@ -1,0 +1,11 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  --include "F:/Vivado/Vivado/2017.4/data/xilinx_vip/include" \
+"../../../../Round-Robin Arbiter with an OOP Testbench.srcs/sources_1/new/arbiter_if.sv" \
+"../../../../Round-Robin Arbiter with an OOP Testbench.srcs/sources_1/new/rr_arbiter.sv" \
+"../../../../Round-Robin Arbiter with an OOP Testbench.srcs/sim_1/new/tb_rr_arbiter.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
