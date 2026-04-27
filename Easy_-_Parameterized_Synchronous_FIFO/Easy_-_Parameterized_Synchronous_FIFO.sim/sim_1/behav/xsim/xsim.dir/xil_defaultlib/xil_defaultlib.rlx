@@ -1,8 +1,0 @@
-0.6
-2017.4
-Dec 15 2017
-21:07:18
-E:/Github_Projects/Vivado_Projects/Easy_-_Parameterized_Synchronous_FIFO/Easy_-_Parameterized_Synchronous_FIFO.sim/sim_1/behav/xsim/glbl.v,1513215259,verilog,,,,glbl,,xil_defaultlib,,,,,,
-E:/Github_Projects/Vivado_Projects/Easy_-_Parameterized_Synchronous_FIFO/Easy_-_Parameterized_Synchronous_FIFO.srcs/sim_1/new/tb_sync_fifo.sv,1777222411,systemVerilog,,,,tb_sync_fifo,,xil_defaultlib,F:/Vivado/Vivado/2017.4/data/xilinx_vip/include,,,,,
-E:/Github_Projects/Vivado_Projects/Easy_-_Parameterized_Synchronous_FIFO/Easy_-_Parameterized_Synchronous_FIFO.srcs/sources_1/new/fifo_if.sv,1777222211,systemVerilog,,E:/Github_Projects/Vivado_Projects/Easy_-_Parameterized_Synchronous_FIFO/Easy_-_Parameterized_Synchronous_FIFO.srcs/sources_1/new/sync_fifo.sv,,fifo_if,,xil_defaultlib,F:/Vivado/Vivado/2017.4/data/xilinx_vip/include,,,,,
-E:/Github_Projects/Vivado_Projects/Easy_-_Parameterized_Synchronous_FIFO/Easy_-_Parameterized_Synchronous_FIFO.srcs/sources_1/new/sync_fifo.sv,1777222027,systemVerilog,,E:/Github_Projects/Vivado_Projects/Easy_-_Parameterized_Synchronous_FIFO/Easy_-_Parameterized_Synchronous_FIFO.srcs/sim_1/new/tb_sync_fifo.sv,,sync_fifo,,xil_defaultlib,F:/Vivado/Vivado/2017.4/data/xilinx_vip/include,,,,,

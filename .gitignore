@@ -1,0 +1,16 @@
+# Vivado Junk Files & Directories
+*.jou
+*.log
+*.pb
+*.wdb
+*.str
+*.dcp
+*.dir/
+.Xil/
+*.cache/
+*.hw/
+*.ip_user_files/
+
+# OS Generated Files
+.DS_Store
+Thumbs.db
