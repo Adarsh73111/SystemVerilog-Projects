@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  --include "F:/Vivado/Vivado/2017.4/data/xilinx_vip/include" \
+"../../../../8bit i2c protocol.srcs/sources_1/new/i2c_master_32bps.sv" \
+"../../../../8bit i2c protocol.srcs/sim_1/new/tb_i2c_master.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
