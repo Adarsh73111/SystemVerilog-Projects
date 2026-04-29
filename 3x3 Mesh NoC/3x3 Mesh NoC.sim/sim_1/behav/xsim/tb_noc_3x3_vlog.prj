@@ -1,0 +1,16 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  --include "F:/Vivado/Vivado/2017.4/data/xilinx_vip/include" \
+"../../../../3x3 Mesh NoC.srcs/sources_1/new/arbiter.sv" \
+"../../../../3x3 Mesh NoC.srcs/sources_1/new/flit_pkg.sv" \
+"../../../../3x3 Mesh NoC.srcs/sources_1/new/crossbar.sv" \
+"../../../../3x3 Mesh NoC.srcs/sources_1/new/input_buffer.sv" \
+"../../../../3x3 Mesh NoC.srcs/sources_1/new/noc_3x3.sv" \
+"../../../../3x3 Mesh NoC.srcs/sources_1/new/route_compute.sv" \
+"../../../../3x3 Mesh NoC.srcs/sources_1/new/router.sv" \
+"../../../../3x3 Mesh NoC.srcs/sim_1/new/tb_noc_3x3.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
