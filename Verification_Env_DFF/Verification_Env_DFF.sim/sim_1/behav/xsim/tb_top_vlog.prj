@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  --include "F:/Vivado/Vivado/2017.4/data/xilinx_vip/include" \
+"../../../../Verification_Env_DFF.srcs/sources_1/new/dff.sv" \
+"../../../../Verification_Env_DFF.srcs/sim_1/new/tb_dff.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
